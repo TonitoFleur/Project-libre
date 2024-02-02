@@ -4,7 +4,7 @@ app = Flask("test")
 
 @app.route("/")
 def index():
-  return ("test")
+  return ("coucou")
 
 
 app.run(host="0.0.0.0", port=3904)
