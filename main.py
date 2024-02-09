@@ -4,7 +4,7 @@ app = Flask("test")
 
 @app.route("/")
 def index():
-  return ("coucou")
+  return render_template("index.html")
 
 @app.route('/register')
 def register():
