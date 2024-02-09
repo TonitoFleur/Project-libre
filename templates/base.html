@@ -9,27 +9,28 @@
   <title>Document</title>
 
 </head>
-  <body>
-    <header class="bg-teal-200 flex justify-between p-10">
-      <h1 class="text-3xl font-semibold">Amazonite</h1>
-      <nav>
-        <ul class="flex space-x-10 text-xl font-medium">
-          <li><a href="/">ACCUEIL</a></li>
-          <li><a href="">Se connecter</a></li>
-          <li><a href="">S'enregistrer</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header class="bg-teal-200 flex justify-between p-10">
+    <h1 class="text-3xl font-semibold">Amazonite</h1>
+    <nav>
+      <ul class="flex space-x-10 text-xl font-medium">
+        <li><a href="/">ACCUEIL</a></li>
+        <li><a href="">Se connecter</a></li>
+        <li><a href="">S'enregistrer</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="bg-teal-100">
-    {% block content %}
-    {% endblock %}
-    </main>
+  <main class="bg-teal-100">
+  {% block content %}
+      
+  {% endblock %}
+  </main>
 
-    <footer class="bg-teal-400 p-6 text-center">
-      <p>Copyright Antoine, Arthur, Edouard&copy;</p>
-      <p>Contact : info@...</p>
-    </footer>
+  <footer class="bg-teal-400 p-6 text-center">
+    <p>Copyright Antoine, Arthur, Edouard&copy;</p>
+    <p>Contact : info@...</p>
+  </footer>
 
-  </body>
+</body>
 </html>
